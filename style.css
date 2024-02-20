@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Homenaje&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "homenaje";
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    background-image: url(Elon_musk.png);
+    background-position: center;
+    background-size: cover;
+    height: 612px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container_column {
+    max-width: 300px;
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.4px);
+    -webkit-backdrop-filter: blur(11.4px);
+    border-radius: 30px;
+    margin: 10px;
+
+}
+
+.container_nav {
+    width: 400px;
+    height: 590px;
+
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 34px;
+    font-size: 25px;
+}
+
+.container_nav li {
+    text-align: center;
+    color: rgb(228, 228, 228);
+
+
+}
+
+.container_nav a {
+    color:rgb(240, 240, 240) ;
+}
+
+.container_nav li:hover {
+    font-size: 27px;
+}
+
+.banner_title {
+    color: white;
+    font-family: "homenaje";
+    padding: 20px;
+    text-align: center;
+}
+
+.banner_title h3 {
+    padding-top: 15px;
+    color: rgb(192, 192, 192);
+    padding-bottom: 15px;
+}
+
+.line_title {
+    height: 1px;
+    width: auto;
+    background-color: white;
+}
+
+.description {
+    flex-wrap: wrap;
+    font-size: 22px;
+    padding: 20px;
+    color: rgb(192, 192, 192);
+    font-family: "homenaje";
+
+}
+
+
+.title_emp {
+    color: white;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    background-color: #16181C;
+    display: flex;
+}
+
+.aside_text {
+    padding: 55px;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.aside_text h3 {
+    margin-top: 30px;
+    font-size: 40px;
+    color:#EC263F;
+}
+.aside_text p {
+    
+    color: #7e7e7e;
+}
+
+.text {
+    color: rgb(209, 209, 209);
+    padding: 50px;
+    width: 70%;
+    word-spacing: 3px;
+    font-size: 25px;
+}
+
+
+.text h3 {
+    font-size: 25px;
+    padding-bottom: 8px;
+    color: #EC263F;
+}
+
+.title_t {
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.title_t span {
+    font-size: 40px;
+}
+
+.aside_text {
+    background-color: #1c1e24;
+    width: 30%;
+}
+
+.colors_c {
+    height: 60px;
+    display: flex;
+
+}
+
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.color1 {
+    background-color: #932B46;
+}
+
+.color2 {
+    background-color: #C6223E;
+}
+
+.color3 {
+    background-color: #EC263F;
+}
+
+.color4 {
+    background-color: #7D1930;
+}
+
+.color5 {
+    background-color: #3B1628;
+}
+
+
+footer {
+    background-color:  #101214;
+    text-align: center;
+    color: aliceblue;
+    height: 20px;
+}
+
+footer span {
+    color: #EC263F;
+}
+
+.wiki {
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: justify;
+}
+.wiki a {
+    text-decoration: none;
+    color: #EC263F ;
+}
+
+@media (max-width:768px) {
+    .aside_text {
+        padding: 10px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .title_t {
+        font-size: 20px;
+    }
+
+    .title_t span {
+        font-size: 23px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .wiki {
+        font-size: 19px;
+    }
+    .container_nav {
+        margin-right: -60px;
+        margin-top:80px;
+    }   
+    ul {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:425px) {
+    .text {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .aside_text h3 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .aside_text {
+        font-size: 13px;
+    }
+    .container_nav {
+        display: none;
+    }
+    .container_column {
+        max-width: 500px;
+        max-height: 200px;
+        display: inline-table;
+    }
+    .description {
+        font-size: 15px;
+        padding: 13px;
+        text-align: center;
+    }
+}
