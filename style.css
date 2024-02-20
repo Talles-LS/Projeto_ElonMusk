@@ -214,3 +214,59 @@ footer span {
     text-decoration: none;
     color: #EC263F ;
 }
+@media (max-width:768px) {
+    .aside_text {
+        padding: 10px;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .title_t {
+        font-size: 20px;
+    }
+
+    .title_t span {
+        font-size: 23px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .wiki {
+        font-size: 19px;
+    }
+    .container_nav {
+        margin-right: -60px;
+        margin-top:80px;
+    }   
+    ul {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:425px) {
+    .text {
+        padding: 15px;
+        font-size: 20px;
+    }
+    .aside_text h3 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .aside_text {
+        font-size: 13px;
+    }
+    .container_nav {
+        display: none;
+    }
+    .container_column {
+        max-width: 500px;
+        max-height: 200px;
+        display: inline-table;
+    }
+    .description {
+        font-size: 15px;
+        padding: 13px;
+        text-align: center;
+    }
+}
